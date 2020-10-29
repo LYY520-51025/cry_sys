@@ -1,0 +1,21 @@
+login:
+  username: /html/body/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td[2]/div/input
+  password: /html/body/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/div/input
+  log : //*[@id="in1"]
+case_change:
+  frame: topFrame
+  Customer: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td[5]/table/tbody/tr/td/div/a
+  pframe: mainFrame
+case_add:
+  add: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input
+  Customer_name: /html/body/form/table[1]/tbody/tr[2]/td[2]/input
+  Customer_position: /html/body/form/table[1]/tbody/tr[3]/td[2]/input
+  execute_script: window.document.getElementById('customerBirthday').readOnly=false
+  Customer_birthday: //*[@id="customerBirthday"]
+  Creater: /html/body/form/table[1]/tbody/tr[8]/td[2]/input
+  Customer_Email: /html/body/form/table[1]/tbody/tr[4]/td[4]/input
+  submit: /html/body/form/table[2]/tbody/tr/td[2]/input
+case_modefiy :
+  edit: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[13]/div/span/a[1]
+  ipone: /html/body/form/table[1]/tbody/tr[5]/td[4]/input
+  submit: /html/body/form/table[2]/tbody/tr/td[2]/input
